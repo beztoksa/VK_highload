@@ -26,6 +26,7 @@
 - Push уведомления
 
 ## Сслыки на источники
-- [1](https://vk.company.ru/ru/press/releases/12064/)
-- [2](https://corp.vkcdn.ru/media/files/RUS_Press_Release_Q1_2024.pdf)
-- [3](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D1%82%D0%B0_Mail)
+1. [Пресс-релиз VK по результатам за 2 кв. и 1 пол. 2025](https://vk.company.ru/ru/press/releases/12064/)
+2. [Пресс-релиз VK по результатам за 1 кв. и 1 пол. 2024](https://corp.vkcdn.ru/media/files/RUS_Press_Release_Q1_2024.pdf) 
+3. [Вики про почту Mail.ru](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D1%82%D0%B0_Mail)
+
