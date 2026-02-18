@@ -26,6 +26,6 @@
 - Push уведомления
 
 ## Сслыки на источники
-[1](https://vk.company.ru/ru/press/releases/12064/)
-[2](https://corp.vkcdn.ru/media/files/RUS_Press_Release_Q1_2024.pdf)
-[3](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D1%82%D0%B0_Mail)
+- [1](https://vk.company.ru/ru/press/releases/12064/)
+- [2](https://corp.vkcdn.ru/media/files/RUS_Press_Release_Q1_2024.pdf)
+- [3](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D1%82%D0%B0_Mail)
