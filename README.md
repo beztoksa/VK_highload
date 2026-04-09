@@ -332,7 +332,7 @@ MailAPI имеет нагрузку 92 833 RPS [^4]
 
 ### 7.6 Используемые структуры данных
 Таблицы в БД: \
-**threads**, **adddress_messages**, **messages**.
+**threads**, **address_messages**, **messages**.
 
 
 
