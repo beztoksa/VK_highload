@@ -361,6 +361,34 @@ MailAPI имеет нагрузку 92 833 RPS [^4]
 | **Kafka**                            | Брокер сообщений                  | Асинхронная доставка писем, уведомлений                                                                                                                                                                 |
 | **MinIO (S3-совместимое хранилище)** | Объектное хранилище               | Для хранения вложений писем                                                                                                                                                                             |
 
+## 8. Схема проекта 
+![Cхема сервисов](images/service_scheme.jpg)
+| Сервис | Назначение |
+<!--  
+### Операции и путь сервисов
+**Отправка внутреннего сообщения:**  
+Client A -> nginx -> Mail API -> PostgreSQL  
+|-> Kafka (internal_delivery)  
+
+Kafka -> Mail Processing -> PostgreSQL  
+|-> S3  
+|-> ElasticSearch Worker -> ElasticSearch  
+|-> Kafka (notification)  
+
+Kafka -> Push Service -> Client B  
+**Отправка внешнего сообщения:**  
+Client A -> nginx -> Mail API -> PostgreSQL  
+|-> Kafka (internal_delivery)
+
+Kafka -> Mail Processing -> PostgreSQL  
+|-> S3  
+|-> ElasticSearch Worker -> ElasticSearch  
+|-> Kafka (notification)
+
+Kafka -> Push Service -> Client B
+-->
+
+
 
 [^0]: [mail.ru](https://mail.ru/)
 [^1]: [Пресс-релиз VK по результатам за 2 кв. и 1 пол. 2025](https://vk.company.ru/ru/press/releases/12064/)
