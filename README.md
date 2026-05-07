@@ -488,7 +488,7 @@ Kafka -> Push Service -> Client B
 | **db-postgres (metadata+users)** | own     | 2×Intel Xeon Silver 4314 / 8×32ГБ / 8×NVMe 4ТБ / 2×25GbE    |  32  |   5    |    9 000    |      320       |
 | **db-ES (search index)**         | own     | 2×Intel Xeon Silver 4314 / 8×32ГБ / 12×NVMe 8ТБ / 2×25GbE   |  32  |   2    |   15 000    |      500       |
 | **db-redis**                     | own     | 2×Intel Xeon Silver 4314 / 16×32ГБ / 2×NVMe 512ГБ / 2×25GbE |  16  |   2    |    6 500    |      250       |
-| **kafka**                        | own     | 2×Intel Xeon Silver 4314 / 4×32ГБ /  2×NVMe 512ГБ / 2×25GbE |  16  |   1    |    7 500    |      300       |
+| **kafka**                        | own     | 2×Intel Xeon Silver 4314 / 4×32ГБ /  2×NVMe 512ГБ / 2×25GbE |  16  |   2    |    7 500    |      300       |
 | **Итог**                         |         |                                                             |      |        | **131 500** |   **5 500**    |
 ### Таблица ресурсов сервисов 
 | Сервис              | CPU requests | CPU limits | RAM requests | RAM limits | Кол-во реплик |
